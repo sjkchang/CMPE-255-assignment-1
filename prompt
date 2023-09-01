@@ -1,0 +1,17 @@
+We are writing conways game of life.
+This is a zero player game, so no user input is required.
+
+This game will take place on a 100x100 grid of square cells.
+The initial grid should have a random pattern of live and dead cells, where each cell has a equal chance of starting alive or dead.
+
+The user should be able to click buttons with their mouse to pause, unpause, and reset the game with a new random pattern of cells.
+
+The game follows the following rules: 1. Any live cell with fewer than two live neighbors dies, as if by underpopulation 2. Any live cell with two or three live neighbors lives on to the next generation 3. Any live cell with more than three live neighbors dies, as if by overpopulation 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction
+
+Each generation should be a set time interval of 4 generations per second.
+Live cells should be black, dead cells should be white
+
+Write this code for the browser. The frontend should be designed with html, js and css.
+The backend should host the frontends static files, and be written in JS with the expressJS framework
+
+Please write all code following SOLID principles
